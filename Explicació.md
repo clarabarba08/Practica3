@@ -13,7 +13,7 @@ Per aquest exercici no és necessari fer cap muntatge a la Protoboard, només ca
 En el codi que podem trobar en el fitxer *main.cpp* cal afegir-hi el nom de la Wifi i la contrassenya:
 ```cpp
 const char* ssid = "NomWifi"; 
-const char* password = "ContrassenyaWifi"; //Enter your Password here
+const char* password = "ContrassenyaWifi";
 ```
 A continuació es crea l'objecte Web Server: 
 ```cpp
