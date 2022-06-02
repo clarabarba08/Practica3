@@ -23,7 +23,7 @@ Dins del setup hem d'inicialitzar el modem Wifi:
 ```cpp
 WiFi.begin(ssid, password);
 ```
-Cal mostrar la IP de la web per pantalla per poder accedi-hi a través del buscador.
+Cal mostrar la IP de la web per pantalla per poder accedir-hi a través del buscador.
 ```cpp
 Serial.print("Got IP: ");
 Serial.println(WiFi.localIP());
